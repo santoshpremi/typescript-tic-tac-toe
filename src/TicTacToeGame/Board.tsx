@@ -56,6 +56,7 @@ const Board = () => {
 
   return (
     <div className="board">
+      <h3>Welcome</h3>
       <h4> Tic-Tac-Toe Game</h4>
       <div className="row">
         <Square onClick={() => handleClick(0)} value={state[0]} />
